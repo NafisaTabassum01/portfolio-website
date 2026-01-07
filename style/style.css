@@ -16,6 +16,10 @@
 header{
   background-color: #FFF8F3;
  padding-top: 50px; 
+ background: url("../images/developer.png") , url("../images/header_bg.png") , #FFF8F3;
+ background-position: top left,bottom right;
+ background-repeat: no-repeat;
+ padding-top: 50px;
 }
 nav{
   width: 71%;
@@ -46,7 +50,7 @@ nav .menu a{
 
 }
 
-#hire{
+.hire{
   background-color: #FD6E0A;
   width: 150px;
   height: 65px;
@@ -57,4 +61,62 @@ nav .menu a{
  color: white;
  font-weight: bold;
 
+}
+#banner{
+  margin: 46px 38px 0 230px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+ #banner .banner-content h2{
+   
+   font-size: 45px;
+   color: #474747;
+   font-weight: 600;
+
+ }
+ #banner .banner-content h1{
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-bottom: 20px;
+ }
+  #banner .banner-content p{
+     
+    font-size: 18px;
+  }
+.Download{
+  background-color: #FD6E0A;
+  width: 200px;
+  height: 64px;
+  border-radius: 5px;
+  border: none;
+ font-size: larger;
+ padding: 19px 17px 18PX 17PX;
+ color: white;
+ font-weight: bold;
+ margin-top: 30PX;
+}
+
+#banner .banner-content .Contact {
+
+/* background-color: #FD6E0A; */
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  border-color: #FD6E0A;
+  border: 2px solid;
+ font-size: larger;
+ padding: 19px 23px 18PX 58PX;
+ color: #FD6E0A;
+ font-weight: bold;
+ margin-top: 30PX;
+ background-color: #FFF8F3;
+ margin-left: 30px;
+}
+#banner #banner-image{
+  height: 676px;
+  width: 584px;
 }
